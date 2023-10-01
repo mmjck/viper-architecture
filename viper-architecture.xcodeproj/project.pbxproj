@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DC8BC432ACA1FC5005B3BE4 /* NoticeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC8BC422ACA1FC5005B3BE4 /* NoticeInteractor.swift */; };
+		0DC8BC462ACA20F3005B3BE4 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC8BC452ACA20F3005B3BE4 /* MyViewController.swift */; };
+		0DC8BC482ACA20FF005B3BE4 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC8BC472ACA20FF005B3BE4 /* NoticeViewController.swift */; };
 		0DFFD5912AC9DE2E001F7ADA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5902AC9DE2E001F7ADA /* AppDelegate.swift */; };
 		0DFFD5932AC9DE2E001F7ADA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5922AC9DE2E001F7ADA /* SceneDelegate.swift */; };
 		0DFFD5952AC9DE2E001F7ADA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5942AC9DE2E001F7ADA /* ViewController.swift */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DC8BC422ACA1FC5005B3BE4 /* NoticeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeInteractor.swift; sourceTree = "<group>"; };
+		0DC8BC452ACA20F3005B3BE4 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		0DC8BC472ACA20FF005B3BE4 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		0DFFD58D2AC9DE2E001F7ADA /* viper-architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "viper-architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFFD5902AC9DE2E001F7ADA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DFFD5922AC9DE2E001F7ADA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 		0DFFD5AB2AC9E210001F7ADA /* interactor */ = {
 			isa = PBXGroup;
 			children = (
+				0DC8BC422ACA1FC5005B3BE4 /* NoticeInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -156,6 +163,8 @@
 		0DFFD5AF2AC9E6E4001F7ADA /* view */ = {
 			isa = PBXGroup;
 			children = (
+				0DC8BC452ACA20F3005B3BE4 /* MyViewController.swift */,
+				0DC8BC472ACA20FF005B3BE4 /* NoticeViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -302,8 +311,11 @@
 				0DFFD5B22AC9E805001F7ADA /* NoticeModel.swift in Sources */,
 				0DFFD5B42AC9EB3D001F7ADA /* NoticeProtocols.swift in Sources */,
 				0DFFD5952AC9DE2E001F7ADA /* ViewController.swift in Sources */,
+				0DC8BC482ACA20FF005B3BE4 /* NoticeViewController.swift in Sources */,
+				0DC8BC462ACA20F3005B3BE4 /* MyViewController.swift in Sources */,
 				0DFFD5912AC9DE2E001F7ADA /* AppDelegate.swift in Sources */,
 				0DFFD5932AC9DE2E001F7ADA /* SceneDelegate.swift in Sources */,
+				0DC8BC432ACA1FC5005B3BE4 /* NoticeInteractor.swift in Sources */,
 				0DFFD5A82AC9E1B5001F7ADA /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
