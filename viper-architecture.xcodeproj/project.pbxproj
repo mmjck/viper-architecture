@@ -14,6 +14,7 @@
 		0DFFD5A82AC9E1B5001F7ADA /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5A72AC9E1B5001F7ADA /* AppConstants.swift */; };
 		0DFFD5B22AC9E805001F7ADA /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5B12AC9E805001F7ADA /* NoticeModel.swift */; };
 		0DFFD5B42AC9EB3D001F7ADA /* NoticeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5B32AC9EB3D001F7ADA /* NoticeProtocols.swift */; };
+		0DFFD5B62AC9EE18001F7ADA /* NoticePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFD5B52AC9EE18001F7ADA /* NoticePresenter.swift */; };
 		1D237110F2400F96A8C3D339 /* Pods_viper_architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 185A18206BFC972A8BC40EF6 /* Pods_viper_architecture.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		0DFFD5A72AC9E1B5001F7ADA /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		0DFFD5B12AC9E805001F7ADA /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
 		0DFFD5B32AC9EB3D001F7ADA /* NoticeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeProtocols.swift; sourceTree = "<group>"; };
+		0DFFD5B52AC9EE18001F7ADA /* NoticePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticePresenter.swift; sourceTree = "<group>"; };
 		185A18206BFC972A8BC40EF6 /* Pods_viper_architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_viper_architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFD2011BB88A675CAE17D23 /* Pods-viper-architecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viper-architecture.release.xcconfig"; path = "Target Support Files/Pods-viper-architecture/Pods-viper-architecture.release.xcconfig"; sourceTree = "<group>"; };
 		C5D401DCD0C2B42C88F3DC0D /* Pods-viper-architecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-viper-architecture.debug.xcconfig"; path = "Target Support Files/Pods-viper-architecture/Pods-viper-architecture.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 		0DFFD5AC2AC9E252001F7ADA /* presenter */ = {
 			isa = PBXGroup;
 			children = (
+				0DFFD5B52AC9EE18001F7ADA /* NoticePresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFFD5B62AC9EE18001F7ADA /* NoticePresenter.swift in Sources */,
 				0DFFD5B22AC9E805001F7ADA /* NoticeModel.swift in Sources */,
 				0DFFD5B42AC9EB3D001F7ADA /* NoticeProtocols.swift in Sources */,
 				0DFFD5952AC9DE2E001F7ADA /* ViewController.swift in Sources */,
