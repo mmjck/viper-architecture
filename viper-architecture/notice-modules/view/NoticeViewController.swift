@@ -23,6 +23,9 @@ class NoticeViewController: UIViewController {
         presentor.startFetchingNotice()
         tableView.delegate = self
         tableView.dataSource = self
+        
+        
+        
     }
 }
 
